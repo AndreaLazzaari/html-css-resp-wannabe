@@ -157,12 +157,13 @@ img {
 
     /* Lessons section */
     .lessons .col img{
-        height: 152px;
+        height: 100%;
+
     }
 
     /* STEPS SECTION */
     .steps .col img {
-        height: 152px;
+        height: 100%;
     }
 
     /* WHY US SECTION */
@@ -177,18 +178,32 @@ img {
 @media screen and (max-width: 480px){
     /* General Style */
 
-
+    main{
+       
+    }
 
 
     /* LAYOUT */
 
+    .row{
+        display: inline-block;
+    }
 
+    .container{
+        width: 450px;
+        display: flex;
+        flex-direction: column;
 
-
+    }
     /* Lessons section */
 
+    .lessons .col{
+        width: 100%;
+    }
 
-
+    .card{
+        margin-bottom: 4em;
+    }
 
     /* STEPS SECTION */
 
