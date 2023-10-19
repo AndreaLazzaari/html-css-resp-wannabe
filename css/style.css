@@ -190,6 +190,9 @@ img {
 @media screen and (max-width: 480px){
     /* General Style */
 
+    p{
+        font-size: 14.88px;
+    }
 
     /* LAYOUT */
 
@@ -202,6 +205,10 @@ img {
         display: flex;
         flex-direction: column;
 
+    }
+
+    div.col{
+        margin-bottom: 3.5em;
     }
     /* Lessons section */
 
@@ -219,6 +226,10 @@ img {
 
 
     /* WHY US SECTION */
+
+    body main section.why-us{
+        background-color: #222222;
+    }
 
     .why-us .col-left img{
         width: 100%;
