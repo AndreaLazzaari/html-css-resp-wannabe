@@ -156,12 +156,22 @@ img {
     }
 
     /* Lessons section */
+
+    .lessons .col{
+        width: 100%;
+    }
+
     .lessons .col img{
         height: 100%;
 
     }
 
     /* STEPS SECTION */
+
+    .steps .col{
+        width: 100%;
+    }
+    
     .steps .col img {
         height: 100%;
     }
@@ -170,6 +180,8 @@ img {
     .why-us .col-left{
         width: 35%;
     }
+
+  
 }
 
 
@@ -177,10 +189,6 @@ img {
 
 @media screen and (max-width: 480px){
     /* General Style */
-
-    main{
-       
-    }
 
 
     /* LAYOUT */
@@ -190,30 +198,31 @@ img {
     }
 
     .container{
-        width: 450px;
+        width: 350px;
         display: flex;
         flex-direction: column;
 
     }
     /* Lessons section */
 
-    .lessons .col{
-        width: 100%;
-    }
+  
 
     .card{
-        margin-bottom: 4em;
+        margin-bottom: 1em;
     }
 
     /* STEPS SECTION */
 
-
+ 
 
 
 
 
     /* WHY US SECTION */
 
-
+    .why-us .col-left img{
+        width: 100%;
+    }
+   
 
 }
