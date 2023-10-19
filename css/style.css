@@ -127,3 +127,77 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /* Media query 768px in giù */
+
+ @media screen and (max-width: 768px) {
+
+    /* General Style */
+    h1{
+        font-size: 2.2rem;
+    }
+
+    h2{
+        font-size: 1.7rem;
+
+    }
+
+    h3{
+        font-size: 1.2rem;
+    }
+
+    p{
+        font-size: 15.88px;
+    }
+
+    /* LAYOUT */
+    .container {
+        width: 770px
+    }
+
+    /* Lessons section */
+    .lessons .col img{
+        height: 152px;
+    }
+
+    /* STEPS SECTION */
+    .steps .col img {
+        height: 152px;
+    }
+
+    /* WHY US SECTION */
+    .why-us .col-left{
+        width: 35%;
+    }
+}
+
+
+/* Media Query 480px */
+
+@media screen and (max-width: 480px){
+    /* General Style */
+
+
+
+    /* LAYOUT */
+
+
+
+
+    /* Lessons section */
+
+
+
+
+    /* STEPS SECTION */
+
+
+
+
+
+
+    /* WHY US SECTION */
+
+
+
+}
